@@ -1,10 +1,19 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import numpy as np
 import time
 
 # This program scrapes data from the fbref website to get a season's fixtures and scores and stores them in a CSV file which will then be uploaded into a postgres database. 
 
+# Finding who won the game
+def determine_winner(row):
+    if row['HomeScore'] > row['AwayScore']:
+        return row['Home']
+    elif row['AwayScore'] > row['HomeScore']:
+        return row['Away']
+    else:
+        return 'Draw'
 # Creating a list of seasons, specifically the ones that make use of xG data
 seasons_list = [f"{year}-{year+1}" for year in range(2017, 2023)]
 
@@ -34,14 +43,23 @@ for season in seasons_list:
     df['Wk'] = pd.to_numeric(df['Wk'], errors='coerce').fillna(0).astype(int)
     df['Attendance'] = pd.to_numeric(df['Attendance'], errors='coerce').fillna(0).astype(int)
     
-    #Adding that dataframe to a list of dataframes
+    # Adding that dataframe to a list of dataframes
     data.append(df)
     
     print(f"Data fetched for season: {season}")
-    #Putting the program to sleep for 5 seconds so the website does not time out
+    # Putting the program to sleep for 5 seconds so the website does not time out
     time.sleep(5)
 
-#Adding the list of seasons to one dataframes, and exporting the dataframe to a csv file.
+# Adding the list of seasons to one dataframes, spliting the score into home score and away score
 all_seasons = pd.concat(data, ignore_index=True)
+scores = all_seasons['Score'].str.extract(r'(\d+)–(\d+)', expand=True)
+scores.columns = ['HomeScore', 'AwayScore']
+scores = scores.apply(pd.to_numeric)
+all_seasons[['HomeScore', 'AwayScore']] = scores
+
+# Determining if the who won the game
+all_seasons['Winner'] = all_seasons.apply(determine_winner, axis=1)
 all_seasons.rename(columns={'xG': 'xGHome', 'xG.1': 'xGAway'}, inplace=True)
+
+# Exporting to CSV
 all_seasons.to_csv("all_prem_stats.csv", index=False)
