@@ -60,6 +60,9 @@ all_seasons[['HomeScore', 'AwayScore']] = scores
 # Determining if the who won the game
 all_seasons['Winner'] = all_seasons.apply(determine_winner, axis=1)
 all_seasons.rename(columns={'xG': 'xGHome', 'xG.1': 'xGAway'}, inplace=True)
+all_seasons['Date'] = pd.to_datetime(all_seasons['Date'])
+all_seasons = all_seasons.rename_axis('MatchID').reset_index()
+all_seasons.columns = all_seasons.columns.str.lower()
 
 # Exporting to CSV
 all_seasons.to_csv("all_prem_stats.csv", index=False)
