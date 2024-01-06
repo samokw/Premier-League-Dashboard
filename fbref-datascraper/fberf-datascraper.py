@@ -15,7 +15,7 @@ def determine_winner(row):
     else:
         return 'Draw'
 # Creating a list of seasons, specifically the ones that make use of xG data
-seasons_list = [f"{year}-{year+1}" for year in range(2017, 2023)]
+seasons_list = [f"{year}-{year+1}" for year in range(2009, 2023)]
 
 data = []
 
@@ -34,8 +34,7 @@ for season in seasons_list:
     df = pd.read_html(str(table))[0]
     df.drop(["Match Report", "Notes", "Day", "Time"], axis=1, inplace=True)
     #Getting rid of any empty rows
-    df.dropna(inplace=True)
-    
+    df['Attendance'].fillna(0, inplace=True) 
     # Adding a column that has what season the game belongs to
     df['Season'] = season
 
@@ -52,6 +51,8 @@ for season in seasons_list:
 
 # Adding the list of seasons to one dataframes, spliting the score into home score and away score
 all_seasons = pd.concat(data, ignore_index=True)
+all_seasons.drop(["xG", "xG.1"], axis=1, inplace=True)
+all_seasons.dropna(inplace=True)
 scores = all_seasons['Score'].str.extract(r'(\d+)–(\d+)', expand=True)
 scores.columns = ['HomeScore', 'AwayScore']
 scores = scores.apply(pd.to_numeric)
@@ -59,10 +60,10 @@ all_seasons[['HomeScore', 'AwayScore']] = scores
 
 # Determining if the who won the game
 all_seasons['Winner'] = all_seasons.apply(determine_winner, axis=1)
-all_seasons.rename(columns={'xG': 'xGHome', 'xG.1': 'xGAway'}, inplace=True)
 all_seasons['Date'] = pd.to_datetime(all_seasons['Date'])
 all_seasons = all_seasons.rename_axis('MatchID').reset_index()
 all_seasons.columns = all_seasons.columns.str.lower()
 
 # Exporting to CSV
 all_seasons.to_csv("all_prem_stats.csv", index=False)
+print(all_seasons)

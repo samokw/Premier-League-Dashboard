@@ -29,12 +29,6 @@ public class Fixture {
     @Column(name = "Away")
     private String awayTeam;
 
-    @Column(name = "xGHome")
-    private Double xGHome;
-
-    @Column(name = "xGAway")
-    private Double xGAway;
-
     @Column(name = "Score")
     private String score;
 

@@ -1,17 +1,16 @@
 package com.example.premierleaguedashboardbackend.Team;
 
+import com.example.premierleaguedashboardbackend.Fixture.Fixture;
 import com.example.premierleaguedashboardbackend.Fixture.FixtureRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/team")
+@CrossOrigin
 public class TeamController {
     @Autowired
     TeamRepository teamRepository;
@@ -22,7 +21,7 @@ public class TeamController {
     @Autowired
     FixtureRepository fixtureRepository;
     @GetMapping
-    private ResponseEntity<List<Team>> getAllTeams(){
+    public ResponseEntity<List<Team>> getAllTeams(){
         return ResponseEntity.ok(teamRepository.findAll());
     }
     @GetMapping("/{teamName}")
@@ -31,5 +30,13 @@ public class TeamController {
         team.setFixtures(fixtureRepository.findLatestMatchesByTeam(teamName, 4));
         return team;
     }
-
+    @GetMapping("/{teamName}/matches")
+    public List<Fixture> getFixturesForTeam(@PathVariable String teamName, @RequestParam String season){
+        System.out.println(season);
+        return fixtureRepository.getFixturesByTeamForSeason(teamName, season);
+    }
+    @GetMapping("/season/{teamName}")
+    public List<String> getSeasonsInPrem(@PathVariable String teamName){
+        return fixtureRepository.getSeasonsForTeam(teamName);
+    }
 }
