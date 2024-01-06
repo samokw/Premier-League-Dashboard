@@ -1,35 +1,71 @@
 # Premier-League-Dashboard
 
-Simple overview of use/purpose.
+Browse all Premier League teams and view their past game details
 
-## Description
+## Screenshots
 
-An in-depth paragraph about your project and overview of use.
+### Home Page
+
+![Home Page](/README/Home.png)
+
+### Team Dashboard Page
+
+![Matches Page](/README/TeamDashboard.png)
+
+### Fixtures By Year Page
+
+![Fixtures By Year](/README/MatchesByYear.png)
+
+## Technologies
+* Spring Boot
+* Java Persistence API, Repositories and JPQL
+* HSQL DB
+* React JS
+* Chart JS
 
 ## Getting Started
 
 ### Dependencies
+Youll need to have:
+Python 3.10, Java 17, and NodeJs all installed
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing and running your program.
-
-
+#### Python Libaries
+* Pandas
+* Requests
+* BeautifulSoup
+* Time
 
 ### Executing program
-
-* How to build and run the program
-* Step-by-step bullets
+* To scrape the website
 ```
-use code blocks for commands
+cd fbref-datascraper
 ```
-* include the expected output
+```
+python fbref-datascraper.py
+```
+* Frontend
+```
+cd premier-league-dashboard-frontend
+```
+```
+npm install
+```
+```
+npm run dev
+```
+* Backend
+```
+cd premier-league-dashboard-backend
+```
+```
+./mvnw spring-boot:run
+```
 
-## Limitations
-
-What isn't done? What things cause errors?
-Load File Checks for incorrect Characters but the program doesn't work after finding the error.
+## Next Steps
+* Automate the process of pulling the data yearly
+* Deploy the Website
 
 ## Author Information
-
-Your name and contact information including your email address
 Chibuzor Okwusiuno
-cokwusiu@uoguelph.ca
+Contact me:
+okwusiunosamuel@gmail.com

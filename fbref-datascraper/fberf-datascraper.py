@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import numpy as np
 import time
 
 # This program scrapes data from the fbref website to get a season's fixtures and scores and stores them in a CSV file which will then be uploaded into a postgres database. 
@@ -14,7 +13,7 @@ def determine_winner(row):
         return row['Away']
     else:
         return 'Draw'
-# Creating a list of seasons, specifically the ones that make use of xG data
+# Creating a list of seasons
 seasons_list = [f"{year}-{year+1}" for year in range(2009, 2023)]
 
 data = []
