@@ -12,18 +12,18 @@ export const MatchDetailCard = ({teamName, fixture}) =>{
   return (
     <>
       <div className={isMatchWon ? 'MatchDetailCard won-card' : 'MatchDetailCard lost-card'}>
-        <div>
+        <div className='text'>
             <h1>vs <Link to={otherTeamRoute}>{otherTeam}</Link></h1>
             <h2 className='fixture-date'>{fixture.date}</h2>
             <h2 className='fixture-score'>{fixture.score}</h2>
         </div>
-        <div className='other-stats'>
-            <h4>Venue:</h4>
-            <h5>{fixture.venue}</h5>
-            <h4>Attendance:</h4>
-            <h5>{fixture.attendance}</h5>
-            <h4>Referee: </h4>
-            <h5>{fixture.referee}</h5>
+        <div className='other-stats text'>
+            <h3>Venue:</h3>
+            <h4>{fixture.venue}</h4>
+            <h3>Attendance:</h3>
+            <h4>{fixture.attendance}</h4>
+            <h3>Referee: </h3>
+            <h4>{fixture.referee}</h4>
         </div>
       </div>
     </>

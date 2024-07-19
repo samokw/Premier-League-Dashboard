@@ -5319,3 +5319,231 @@ matchid,wk,date,home,score,away,attendance,venue,referee,season,homescore,awaysc
 5983,38,2023-05-28,Aston Villa,2–1,Brighton,0,Villa Park,David Coote,2022-2023,2,1,Aston Villa
 5984,38,2023-05-28,Leeds United,1–4,Tottenham,36871,Elland Road,Anthony Taylor,2022-2023,1,4,Tottenham
 5985,38,2023-05-28,Brentford,1–0,Manchester City,17120,Brentford Community Stadium,John Brooks,2022-2023,1,0,Brentford
+5986,1,2023-08-11,Burnley,0–3,Manchester City,21572,Turf Moor,Craig Pawson,2023-2024,0,3,Manchester City
+5987,1,2023-08-12,Arsenal,2–1,Nott'ham Forest,59984,Emirates Stadium,Michael Oliver,2023-2024,2,1,Arsenal
+5988,1,2023-08-12,Everton,0–1,Fulham,39940,Goodison Park,Stuart Attwell,2023-2024,0,1,Fulham
+5989,1,2023-08-12,Sheffield Utd,0–1,Crystal Palace,31194,Bramall Lane,John Brooks,2023-2024,0,1,Crystal Palace
+5990,1,2023-08-12,Brighton,4–1,Luton Town,31872,The American Express Community Stadium,David Coote,2023-2024,4,1,Brighton
+5991,1,2023-08-12,Bournemouth,1–1,West Ham,11245,Vitality Stadium,Peter Bankes,2023-2024,1,1,Draw
+5992,1,2023-08-12,Newcastle Utd,5–1,Aston Villa,52207,St James' Park,Andy Madley,2023-2024,5,1,Newcastle Utd
+5993,1,2023-08-13,Brentford,2–2,Tottenham,17066,Gtech Community Stadium,Robert Jones,2023-2024,2,2,Draw
+5994,1,2023-08-13,Chelsea,1–1,Liverpool,40096,Stamford Bridge,Anthony Taylor,2023-2024,1,1,Draw
+5995,1,2023-08-14,Manchester Utd,1–0,Wolves,73358,Old Trafford,Simon Hooper,2023-2024,1,0,Manchester Utd
+5997,2,2023-08-18,Nott'ham Forest,2–1,Sheffield Utd,29432,The City Ground,Peter Bankes,2023-2024,2,1,Nott'ham Forest
+5998,2,2023-08-19,Fulham,0–3,Brentford,24236,Craven Cottage,Darren Bond,2023-2024,0,3,Brentford
+5999,2,2023-08-19,Liverpool,3–1,Bournemouth,53145,Anfield,Thomas Bramall,2023-2024,3,1,Liverpool
+6000,2,2023-08-19,Wolves,1–4,Brighton,31317,Molineux Stadium,Andy Madley,2023-2024,1,4,Brighton
+6001,2,2023-08-19,Tottenham,2–0,Manchester Utd,61910,Tottenham Hotspur Stadium,Michael Oliver,2023-2024,2,0,Tottenham
+6002,2,2023-08-19,Manchester City,1–0,Newcastle Utd,53419,Etihad Stadium,Robert Jones,2023-2024,1,0,Manchester City
+6003,2,2023-08-20,Aston Villa,4–0,Everton,41694,Villa Park,Anthony Taylor,2023-2024,4,0,Aston Villa
+6004,2,2023-08-20,West Ham,3–1,Chelsea,62451,London Stadium,John Brooks,2023-2024,3,1,West Ham
+6005,2,2023-08-21,Crystal Palace,0–1,Arsenal,24189,Selhurst Park,David Coote,2023-2024,0,1,Arsenal
+6007,3,2023-08-25,Chelsea,3–0,Luton Town,39893,Stamford Bridge,Robert Jones,2023-2024,3,0,Chelsea
+6008,3,2023-08-26,Bournemouth,0–2,Tottenham,10567,Vitality Stadium,Tim Robinson,2023-2024,0,2,Tottenham
+6009,3,2023-08-26,Everton,0–1,Wolves,38851,Goodison Park,Craig Pawson,2023-2024,0,1,Wolves
+6010,3,2023-08-26,Brentford,1–1,Crystal Palace,16997,Gtech Community Stadium,Peter Bankes,2023-2024,1,1,Draw
+6011,3,2023-08-26,Manchester Utd,3–2,Nott'ham Forest,73595,Old Trafford,Stuart Attwell,2023-2024,3,2,Manchester Utd
+6012,3,2023-08-26,Arsenal,2–2,Fulham,59961,Emirates Stadium,Paul Tierney,2023-2024,2,2,Draw
+6013,3,2023-08-26,Brighton,1–3,West Ham,31508,The American Express Community Stadium,Anthony Taylor,2023-2024,1,3,West Ham
+6014,3,2023-08-27,Sheffield Utd,1–2,Manchester City,31336,Bramall Lane,Jarred Gillett,2023-2024,1,2,Manchester City
+6015,3,2023-08-27,Burnley,1–3,Aston Villa,21591,Turf Moor,Michael Salisbury,2023-2024,1,3,Aston Villa
+6016,3,2023-08-27,Newcastle Utd,1–2,Liverpool,52214,St James' Park,John Brooks,2023-2024,1,2,Liverpool
+6018,4,2023-09-01,Luton Town,1–2,West Ham,10802,Kenilworth Road Stadium,Paul Tierney,2023-2024,1,2,West Ham
+6019,4,2023-09-02,Sheffield Utd,2–2,Everton,31124,Bramall Lane,Andy Madley,2023-2024,2,2,Draw
+6020,4,2023-09-02,Chelsea,0–1,Nott'ham Forest,39820,Stamford Bridge,Tim Robinson,2023-2024,0,1,Nott'ham Forest
+6021,4,2023-09-02,Manchester City,5–1,Fulham,52899,Etihad Stadium,Michael Oliver,2023-2024,5,1,Manchester City
+6022,4,2023-09-02,Brentford,2–2,Bournemouth,16973,Gtech Community Stadium,Robert Madley,2023-2024,2,2,Draw
+6023,4,2023-09-02,Burnley,2–5,Tottenham,21750,Turf Moor,Darren England,2023-2024,2,5,Tottenham
+6024,4,2023-09-02,Brighton,3–1,Newcastle Utd,31620,The American Express Community Stadium,Stuart Attwell,2023-2024,3,1,Brighton
+6025,4,2023-09-03,Liverpool,3–0,Aston Villa,50109,Anfield,Simon Hooper,2023-2024,3,0,Liverpool
+6026,4,2023-09-03,Crystal Palace,3–2,Wolves,24741,Selhurst Park,Robert Jones,2023-2024,3,2,Crystal Palace
+6027,4,2023-09-03,Arsenal,3–1,Manchester Utd,60192,Emirates Stadium,Anthony Taylor,2023-2024,3,1,Arsenal
+6029,5,2023-09-16,Wolves,1–3,Liverpool,31257,Molineux Stadium,Michael Oliver,2023-2024,1,3,Liverpool
+6030,5,2023-09-16,Fulham,1–0,Luton Town,24467,Craven Cottage,Michael Salisbury,2023-2024,1,0,Fulham
+6031,5,2023-09-16,West Ham,1–3,Manchester City,62475,London Stadium,Andy Madley,2023-2024,1,3,Manchester City
+6032,5,2023-09-16,Aston Villa,3–1,Crystal Palace,40809,Villa Park,Darren England,2023-2024,3,1,Aston Villa
+6033,5,2023-09-16,Manchester Utd,1–3,Brighton,73592,Old Trafford,Jarred Gillett,2023-2024,1,3,Brighton
+6034,5,2023-09-16,Tottenham,2–1,Sheffield Utd,61706,Tottenham Hotspur Stadium,Peter Bankes,2023-2024,2,1,Tottenham
+6035,5,2023-09-16,Newcastle Utd,1–0,Brentford,51670,St James' Park,Craig Pawson,2023-2024,1,0,Newcastle Utd
+6036,5,2023-09-17,Bournemouth,0–0,Chelsea,10421,Vitality Stadium,David Coote,2023-2024,0,0,Draw
+6037,5,2023-09-17,Everton,0–1,Arsenal,39217,Goodison Park,Simon Hooper,2023-2024,0,1,Arsenal
+6038,5,2023-09-18,Nott'ham Forest,1–1,Burnley,28958,The City Ground,Robert Jones,2023-2024,1,1,Draw
+6040,6,2023-09-23,Manchester City,2–0,Nott'ham Forest,53413,Etihad Stadium,Anthony Taylor,2023-2024,2,0,Manchester City
+6041,6,2023-09-23,Luton Town,1–1,Wolves,10893,Kenilworth Road Stadium,Joshua Smith,2023-2024,1,1,Draw
+6042,6,2023-09-23,Crystal Palace,0–0,Fulham,25072,Selhurst Park,Paul Tierney,2023-2024,0,0,Draw
+6043,6,2023-09-23,Brentford,1–3,Everton,16981,Gtech Community Stadium,Michael Oliver,2023-2024,1,3,Everton
+6044,6,2023-09-23,Burnley,0–1,Manchester Utd,21593,Turf Moor,Tony Harrington,2023-2024,0,1,Manchester Utd
+6045,6,2023-09-24,Arsenal,2–2,Tottenham,60156,Emirates Stadium,Robert Jones,2023-2024,2,2,Draw
+6046,6,2023-09-24,Brighton,3–1,Bournemouth,31617,The American Express Community Stadium,John Brooks,2023-2024,3,1,Brighton
+6047,6,2023-09-24,Chelsea,0–1,Aston Villa,39700,Stamford Bridge,Jarred Gillett,2023-2024,0,1,Aston Villa
+6048,6,2023-09-24,Liverpool,3–1,West Ham,50136,Anfield,Chris Kavanagh,2023-2024,3,1,Liverpool
+6049,6,2023-09-24,Sheffield Utd,0–8,Newcastle Utd,31127,Bramall Lane,Stuart Attwell,2023-2024,0,8,Newcastle Utd
+6051,7,2023-09-30,Aston Villa,6–1,Brighton,40636,Villa Park,Andy Madley,2023-2024,6,1,Aston Villa
+6052,7,2023-09-30,Wolves,2–1,Manchester City,31415,Molineux Stadium,Craig Pawson,2023-2024,2,1,Wolves
+6053,7,2023-09-30,Bournemouth,0–4,Arsenal,11193,Vitality Stadium,Michael Salisbury,2023-2024,0,4,Arsenal
+6054,7,2023-09-30,Everton,1–2,Luton Town,39289,Goodison Park,Anthony Taylor,2023-2024,1,2,Luton Town
+6055,7,2023-09-30,Newcastle Utd,2–0,Burnley,51687,St James' Park,Thomas Bramall,2023-2024,2,0,Newcastle Utd
+6056,7,2023-09-30,West Ham,2–0,Sheffield Utd,62459,London Stadium,Graham Scott,2023-2024,2,0,West Ham
+6057,7,2023-09-30,Manchester Utd,0–1,Crystal Palace,73428,Old Trafford,Chris Kavanagh,2023-2024,0,1,Crystal Palace
+6058,7,2023-09-30,Tottenham,2–1,Liverpool,62001,Tottenham Hotspur Stadium,Simon Hooper,2023-2024,2,1,Tottenham
+6059,7,2023-10-01,Nott'ham Forest,1–1,Brentford,29004,The City Ground,Paul Tierney,2023-2024,1,1,Draw
+6060,7,2023-10-02,Fulham,0–2,Chelsea,24445,Craven Cottage,Tim Robinson,2023-2024,0,2,Chelsea
+6062,2,2023-10-03,Luton Town,1–2,Burnley,10918,Kenilworth Road Stadium,Peter Bankes,2023-2024,1,2,Burnley
+6064,8,2023-10-07,Luton Town,0–1,Tottenham,10290,Kenilworth Road Stadium,John Brooks,2023-2024,0,1,Tottenham
+6065,8,2023-10-07,Everton,3–0,Bournemouth,38815,Goodison Park,David Coote,2023-2024,3,0,Everton
+6066,8,2023-10-07,Manchester Utd,2–1,Brentford,73453,Old Trafford,Andy Madley,2023-2024,2,1,Manchester Utd
+6067,8,2023-10-07,Burnley,1–4,Chelsea,21654,Turf Moor,Stuart Attwell,2023-2024,1,4,Chelsea
+6068,8,2023-10-07,Fulham,3–1,Sheffield Utd,24361,Craven Cottage,Samuel Barrott,2023-2024,3,1,Fulham
+6069,8,2023-10-07,Crystal Palace,0–0,Nott'ham Forest,25017,Selhurst Park,Craig Pawson,2023-2024,0,0,Draw
+6070,8,2023-10-08,West Ham,2–2,Newcastle Utd,62473,London Stadium,Peter Bankes,2023-2024,2,2,Draw
+6071,8,2023-10-08,Wolves,1–1,Aston Villa,31425,Molineux Stadium,Robert Jones,2023-2024,1,1,Draw
+6072,8,2023-10-08,Brighton,2–2,Liverpool,31752,The American Express Community Stadium,Anthony Taylor,2023-2024,2,2,Draw
+6073,8,2023-10-08,Arsenal,1–0,Manchester City,60233,Emirates Stadium,Michael Oliver,2023-2024,1,0,Arsenal
+6075,9,2023-10-21,Liverpool,2–0,Everton,50201,Anfield,Craig Pawson,2023-2024,2,0,Liverpool
+6076,9,2023-10-21,Bournemouth,1–2,Wolves,11175,Vitality Stadium,Paul Tierney,2023-2024,1,2,Wolves
+6077,9,2023-10-21,Newcastle Utd,4–0,Crystal Palace,52189,St James' Park,Tim Robinson,2023-2024,4,0,Newcastle Utd
+6078,9,2023-10-21,Brentford,3–0,Burnley,17029,Gtech Community Stadium,Joshua Smith,2023-2024,3,0,Brentford
+6079,9,2023-10-21,Manchester City,2–1,Brighton,53466,Etihad Stadium,Robert Jones,2023-2024,2,1,Manchester City
+6080,9,2023-10-21,Nott'ham Forest,2–2,Luton Town,29361,The City Ground,Samuel Barrott,2023-2024,2,2,Draw
+6081,9,2023-10-21,Chelsea,2–2,Arsenal,39723,Stamford Bridge,Chris Kavanagh,2023-2024,2,2,Draw
+6082,9,2023-10-21,Sheffield Utd,1–2,Manchester Utd,31543,Bramall Lane,Michael Oliver,2023-2024,1,2,Manchester Utd
+6083,9,2023-10-22,Aston Villa,4–1,West Ham,41734,Villa Park,David Coote,2023-2024,4,1,Aston Villa
+6084,9,2023-10-23,Tottenham,2–0,Fulham,61286,Tottenham Hotspur Stadium,Anthony Taylor,2023-2024,2,0,Tottenham
+6086,10,2023-10-27,Crystal Palace,1–2,Tottenham,25074,Selhurst Park,Andy Madley,2023-2024,1,2,Tottenham
+6087,10,2023-10-28,Chelsea,0–2,Brentford,39575,Stamford Bridge,Simon Hooper,2023-2024,0,2,Brentford
+6088,10,2023-10-28,Bournemouth,2–1,Burnley,11152,Vitality Stadium,Samuel Barrott,2023-2024,2,1,Bournemouth
+6089,10,2023-10-28,Arsenal,5–0,Sheffield Utd,60153,Emirates Stadium,Tim Robinson,2023-2024,5,0,Arsenal
+6090,10,2023-10-28,Wolves,2–2,Newcastle Utd,31584,Molineux Stadium,Anthony Taylor,2023-2024,2,2,Draw
+6091,10,2023-10-29,West Ham,0–1,Everton,62469,London Stadium,Stuart Attwell,2023-2024,0,1,Everton
+6092,10,2023-10-29,Liverpool,3–0,Nott'ham Forest,50143,Anfield,Chris Kavanagh,2023-2024,3,0,Liverpool
+6093,10,2023-10-29,Brighton,1–1,Fulham,31550,The American Express Community Stadium,Michael Salisbury,2023-2024,1,1,Draw
+6094,10,2023-10-29,Aston Villa,3–1,Luton Town,41785,Villa Park,John Brooks,2023-2024,3,1,Aston Villa
+6095,10,2023-10-29,Manchester Utd,0–3,Manchester City,73502,Old Trafford,Paul Tierney,2023-2024,0,3,Manchester City
+6097,11,2023-11-04,Fulham,0–1,Manchester Utd,24415,Craven Cottage,John Brooks,2023-2024,0,1,Manchester Utd
+6098,11,2023-11-04,Brentford,3–2,West Ham,17103,Gtech Community Stadium,Thomas Bramall,2023-2024,3,2,Brentford
+6099,11,2023-11-04,Everton,1–1,Brighton,38683,Goodison Park,Tim Robinson,2023-2024,1,1,Draw
+6100,11,2023-11-04,Burnley,0–2,Crystal Palace,21578,Turf Moor,Peter Bankes,2023-2024,0,2,Crystal Palace
+6101,11,2023-11-04,Manchester City,6–1,Bournemouth,53358,Etihad Stadium,Craig Pawson,2023-2024,6,1,Manchester City
+6102,11,2023-11-04,Sheffield Utd,2–1,Wolves,29454,Bramall Lane,Robert Jones,2023-2024,2,1,Sheffield Utd
+6103,11,2023-11-04,Newcastle Utd,1–0,Arsenal,52194,St James' Park,Stuart Attwell,2023-2024,1,0,Newcastle Utd
+6104,11,2023-11-05,Nott'ham Forest,2–0,Aston Villa,29313,The City Ground,Jarred Gillett,2023-2024,2,0,Nott'ham Forest
+6105,11,2023-11-05,Luton Town,1–1,Liverpool,11049,Kenilworth Road Stadium,Andy Madley,2023-2024,1,1,Draw
+6106,11,2023-11-06,Tottenham,1–4,Chelsea,61726,Tottenham Hotspur Stadium,Michael Oliver,2023-2024,1,4,Chelsea
+6108,12,2023-11-11,Wolves,2–1,Tottenham,31642,Molineux Stadium,Tim Robinson,2023-2024,2,1,Wolves
+6109,12,2023-11-11,Arsenal,3–1,Burnley,60232,Emirates Stadium,Michael Oliver,2023-2024,3,1,Arsenal
+6110,12,2023-11-11,Manchester Utd,1–0,Luton Town,73599,Old Trafford,Graham Scott,2023-2024,1,0,Manchester Utd
+6111,12,2023-11-11,Crystal Palace,2–3,Everton,25103,Selhurst Park,Samuel Barrott,2023-2024,2,3,Everton
+6112,12,2023-11-11,Bournemouth,2–0,Newcastle Utd,11201,Vitality Stadium,Chris Kavanagh,2023-2024,2,0,Bournemouth
+6113,12,2023-11-12,West Ham,3–2,Nott'ham Forest,62470,London Stadium,Michael Salisbury,2023-2024,3,2,West Ham
+6114,12,2023-11-12,Liverpool,3–0,Brentford,50151,Anfield,Paul Tierney,2023-2024,3,0,Liverpool
+6115,12,2023-11-12,Aston Villa,3–1,Fulham,41608,Villa Park,Simon Hooper,2023-2024,3,1,Aston Villa
+6116,12,2023-11-12,Brighton,1–1,Sheffield Utd,31367,The American Express Community Stadium,John Brooks,2023-2024,1,1,Draw
+6117,12,2023-11-12,Chelsea,4–4,Manchester City,39532,Stamford Bridge,Anthony Taylor,2023-2024,4,4,Draw
+6119,13,2023-11-25,Manchester City,1–1,Liverpool,53289,Etihad Stadium,Chris Kavanagh,2023-2024,1,1,Draw
+6120,13,2023-11-25,Burnley,1–2,West Ham,21319,Turf Moor,Samuel Barrott,2023-2024,1,2,West Ham
+6121,13,2023-11-25,Nott'ham Forest,2–3,Brighton,29404,The City Ground,Anthony Taylor,2023-2024,2,3,Brighton
+6122,13,2023-11-25,Sheffield Utd,1–3,Bournemouth,30208,Bramall Lane,Andy Madley,2023-2024,1,3,Bournemouth
+6123,13,2023-11-25,Newcastle Utd,4–1,Chelsea,52227,St James' Park,Simon Hooper,2023-2024,4,1,Newcastle Utd
+6124,13,2023-11-25,Luton Town,2–1,Crystal Palace,11029,Kenilworth Road Stadium,Jarred Gillett,2023-2024,2,1,Luton Town
+6125,13,2023-11-25,Brentford,0–1,Arsenal,17201,Gtech Community Stadium,Tim Robinson,2023-2024,0,1,Arsenal
+6126,13,2023-11-26,Tottenham,1–2,Aston Villa,61679,Tottenham Hotspur Stadium,Robert Jones,2023-2024,1,2,Aston Villa
+6127,13,2023-11-26,Everton,0–3,Manchester Utd,39257,Goodison Park,John Brooks,2023-2024,0,3,Manchester Utd
+6128,13,2023-11-27,Fulham,3–2,Wolves,24366,Craven Cottage,Michael Salisbury,2023-2024,3,2,Fulham
+6130,14,2023-12-02,Brentford,3–1,Luton Town,17075,Gtech Community Stadium,Anthony Taylor,2023-2024,3,1,Brentford
+6131,14,2023-12-02,Arsenal,2–1,Wolves,60262,Emirates Stadium,Peter Bankes,2023-2024,2,1,Arsenal
+6132,14,2023-12-02,Burnley,5–0,Sheffield Utd,21478,Turf Moor,Chris Kavanagh,2023-2024,5,0,Burnley
+6133,14,2023-12-02,Nott'ham Forest,0–1,Everton,29404,The City Ground,Paul Tierney,2023-2024,0,1,Everton
+6134,14,2023-12-02,Newcastle Utd,1–0,Manchester Utd,52214,St James' Park,Robert Jones,2023-2024,1,0,Newcastle Utd
+6135,14,2023-12-03,Bournemouth,2–2,Aston Villa,11191,Vitality Stadium,Thomas Bramall,2023-2024,2,2,Draw
+6136,14,2023-12-03,Liverpool,4–3,Fulham,50124,Anfield,Stuart Attwell,2023-2024,4,3,Liverpool
+6137,14,2023-12-03,Chelsea,3–2,Brighton,39647,Stamford Bridge,Craig Pawson,2023-2024,3,2,Chelsea
+6138,14,2023-12-03,West Ham,1–1,Crystal Palace,62414,London Stadium,Michael Oliver,2023-2024,1,1,Draw
+6139,14,2023-12-03,Manchester City,3–3,Tottenham,53473,Etihad Stadium,Simon Hooper,2023-2024,3,3,Draw
+6141,15,2023-12-05,Wolves,1–0,Burnley,30439,Molineux Stadium,Jarred Gillett,2023-2024,1,0,Wolves
+6142,15,2023-12-05,Luton Town,3–4,Arsenal,11031,Kenilworth Road Stadium,Samuel Barrott,2023-2024,3,4,Arsenal
+6143,15,2023-12-06,Sheffield Utd,0–2,Liverpool,31406,Bramall Lane,Simon Hooper,2023-2024,0,2,Liverpool
+6144,15,2023-12-06,Crystal Palace,0–2,Bournemouth,25078,Selhurst Park,Craig Pawson,2023-2024,0,2,Bournemouth
+6145,15,2023-12-06,Brighton,2–1,Brentford,31571,The American Express Community Stadium,Peter Bankes,2023-2024,2,1,Brighton
+6146,15,2023-12-06,Fulham,5–0,Nott'ham Forest,24105,Craven Cottage,Joshua Smith,2023-2024,5,0,Fulham
+6147,15,2023-12-06,Aston Villa,1–0,Manchester City,41421,Villa Park,John Brooks,2023-2024,1,0,Aston Villa
+6148,15,2023-12-06,Manchester Utd,2–1,Chelsea,73607,Old Trafford,Chris Kavanagh,2023-2024,2,1,Manchester Utd
+6149,15,2023-12-07,Everton,3–0,Newcastle Utd,38198,Goodison Park,Tim Robinson,2023-2024,3,0,Everton
+6150,15,2023-12-07,Tottenham,1–2,West Ham,61171,Tottenham Hotspur Stadium,Michael Salisbury,2023-2024,1,2,West Ham
+6152,16,2023-12-09,Crystal Palace,1–2,Liverpool,25103,Selhurst Park,Andy Madley,2023-2024,1,2,Liverpool
+6153,16,2023-12-09,Manchester Utd,0–3,Bournemouth,73427,Old Trafford,Peter Bankes,2023-2024,0,3,Bournemouth
+6154,16,2023-12-09,Wolves,1–1,Nott'ham Forest,31543,Molineux Stadium,Samuel Barrott,2023-2024,1,1,Draw
+6155,16,2023-12-09,Brighton,1–1,Burnley,31511,The American Express Community Stadium,Simon Hooper,2023-2024,1,1,Draw
+6156,16,2023-12-09,Sheffield Utd,1–0,Brentford,28509,Bramall Lane,Stuart Attwell,2023-2024,1,0,Sheffield Utd
+6157,16,2023-12-09,Aston Villa,1–0,Arsenal,42000,Villa Park,Jarred Gillett,2023-2024,1,0,Aston Villa
+6158,16,2023-12-10,Everton,2–0,Chelsea,39280,Goodison Park,Michael Oliver,2023-2024,2,0,Everton
+6159,16,2023-12-10,Fulham,5–0,West Ham,23988,Craven Cottage,Paul Tierney,2023-2024,5,0,Fulham
+6160,16,2023-12-10,Luton Town,1–2,Manchester City,11047,Kenilworth Road Stadium,Tim Robinson,2023-2024,1,2,Manchester City
+6161,16,2023-12-10,Tottenham,4–1,Newcastle Utd,61171,Tottenham Hotspur Stadium,Chris Kavanagh,2023-2024,4,1,Tottenham
+6163,17,2023-12-15,Nott'ham Forest,0–2,Tottenham,29296,The City Ground,Jarred Gillett,2023-2024,0,2,Tottenham
+6164,17,2023-12-16,Manchester City,2–2,Crystal Palace,53248,Etihad Stadium,Paul Tierney,2023-2024,2,2,Draw
+6165,17,2023-12-16,Chelsea,2–0,Sheffield Utd,39599,Stamford Bridge,Andy Madley,2023-2024,2,0,Chelsea
+6166,17,2023-12-16,Newcastle Utd,3–0,Fulham,52055,St James' Park,Samuel Barrott,2023-2024,3,0,Newcastle Utd
+6167,17,2023-12-16,Burnley,0–2,Everton,21413,Turf Moor,Anthony Taylor,2023-2024,0,2,Everton
+6168,17,2023-12-17,Brentford,1–2,Aston Villa,17034,Gtech Community Stadium,David Coote,2023-2024,1,2,Aston Villa
+6169,17,2023-12-17,West Ham,3–0,Wolves,62455,London Stadium,Chris Kavanagh,2023-2024,3,0,West Ham
+6170,17,2023-12-17,Arsenal,2–0,Brighton,60257,Emirates Stadium,Tim Robinson,2023-2024,2,0,Arsenal
+6171,17,2023-12-17,Liverpool,0–0,Manchester Utd,57158,Anfield,Michael Oliver,2023-2024,0,0,Draw
+6173,18,2023-12-21,Crystal Palace,1–1,Brighton,24171,Selhurst Park,John Brooks,2023-2024,1,1,Draw
+6174,18,2023-12-22,Aston Villa,1–1,Sheffield Utd,41651,Villa Park,Anthony Taylor,2023-2024,1,1,Draw
+6175,18,2023-12-23,West Ham,2–0,Manchester Utd,64472,London Stadium,Simon Hooper,2023-2024,2,0,West Ham
+6176,18,2023-12-23,Luton Town,1–0,Newcastle Utd,11042,Kenilworth Road Stadium,Darren England,2023-2024,1,0,Luton Town
+6177,18,2023-12-23,Fulham,0–2,Burnley,23598,Craven Cottage,Rebecca Welch,2023-2024,0,2,Burnley
+6178,18,2023-12-23,Tottenham,2–1,Everton,61808,Tottenham Hotspur Stadium,Stuart Attwell,2023-2024,2,1,Tottenham
+6179,18,2023-12-23,Nott'ham Forest,2–3,Bournemouth,29188,The City Ground,Robert Jones,2023-2024,2,3,Bournemouth
+6180,18,2023-12-23,Liverpool,1–1,Arsenal,57548,Anfield,Chris Kavanagh,2023-2024,1,1,Draw
+6181,18,2023-12-24,Wolves,2–1,Chelsea,31641,Molineux Stadium,David Coote,2023-2024,2,1,Wolves
+6183,19,2023-12-26,Newcastle Utd,1–3,Nott'ham Forest,52207,St James' Park,Chris Kavanagh,2023-2024,1,3,Nott'ham Forest
+6184,19,2023-12-26,Bournemouth,3–0,Fulham,11099,Vitality Stadium,Tim Robinson,2023-2024,3,0,Bournemouth
+6185,19,2023-12-26,Sheffield Utd,2–3,Luton Town,31041,Bramall Lane,Samuel Allison,2023-2024,2,3,Luton Town
+6186,19,2023-12-26,Burnley,0–2,Liverpool,21624,Turf Moor,Paul Tierney,2023-2024,0,2,Liverpool
+6187,19,2023-12-26,Manchester Utd,3–2,Aston Villa,73574,Old Trafford,Craig Pawson,2023-2024,3,2,Manchester Utd
+6188,19,2023-12-27,Chelsea,2–1,Crystal Palace,39618,Stamford Bridge,Michael Salisbury,2023-2024,2,1,Chelsea
+6189,19,2023-12-27,Brentford,1–4,Wolves,17109,Gtech Community Stadium,Andy Madley,2023-2024,1,4,Wolves
+6190,19,2023-12-27,Everton,1–3,Manchester City,39327,Goodison Park,John Brooks,2023-2024,1,3,Manchester City
+6191,19,2023-12-28,Brighton,4–2,Tottenham,31675,The American Express Community Stadium,Jarred Gillett,2023-2024,4,2,Brighton
+6192,19,2023-12-28,Arsenal,0–2,West Ham,60261,Emirates Stadium,Michael Oliver,2023-2024,0,2,West Ham
+6194,20,2023-12-30,Luton Town,2–3,Chelsea,11041,Kenilworth Road Stadium,Paul Tierney,2023-2024,2,3,Chelsea
+6195,20,2023-12-30,Aston Villa,3–2,Burnley,41613,Villa Park,Stuart Attwell,2023-2024,3,2,Aston Villa
+6196,20,2023-12-30,Wolves,3–0,Everton,31639,Molineux Stadium,Thomas Bramall,2023-2024,3,0,Wolves
+6197,20,2023-12-30,Manchester City,2–0,Sheffield Utd,53108,Etihad Stadium,David Coote,2023-2024,2,0,Manchester City
+6198,20,2023-12-30,Crystal Palace,3–1,Brentford,25472,Selhurst Park,Robert Jones,2023-2024,3,1,Crystal Palace
+6199,20,2023-12-30,Nott'ham Forest,2–1,Manchester Utd,29529,The City Ground,Tim Robinson,2023-2024,2,1,Nott'ham Forest
+6200,20,2023-12-31,Tottenham,3–1,Bournemouth,61780,Tottenham Hotspur Stadium,Simon Hooper,2023-2024,3,1,Tottenham
+6201,20,2023-12-31,Fulham,2–1,Arsenal,24444,Craven Cottage,Joshua Smith,2023-2024,2,1,Fulham
+6202,20,2024-01-01,Liverpool,4–2,Newcastle Utd,57471,Anfield,Anthony Taylor,2023-2024,4,2,Liverpool
+6203,20,2024-01-02,West Ham,0–0,Brighton,62462,London Stadium,Samuel Barrott,2023-2024,0,0,Draw
+6205,21,2024-01-12,Burnley,1–1,Luton Town,20155,Turf Moor,Tony Harrington,2023-2024,1,1,Draw
+6206,21,2024-01-13,Chelsea,1–0,Fulham,39643,Stamford Bridge,Anthony Taylor,2023-2024,1,0,Chelsea
+6207,21,2024-01-13,Newcastle Utd,2–3,Manchester City,52190,St James' Park,Chris Kavanagh,2023-2024,2,3,Manchester City
+6208,21,2024-01-14,Everton,0–0,Aston Villa,39284,Goodison Park,David Coote,2023-2024,0,0,Draw
+6209,21,2024-01-14,Manchester Utd,2–2,Tottenham,73489,Old Trafford,John Brooks,2023-2024,2,2,Draw
+6210,21,2024-01-20,Arsenal,5–0,Crystal Palace,60284,Emirates Stadium,Paul Tierney,2023-2024,5,0,Arsenal
+6211,21,2024-01-20,Brentford,3–2,Nott'ham Forest,17077,Gtech Community Stadium,Darren England,2023-2024,3,2,Brentford
+6212,21,2024-01-21,Sheffield Utd,2–2,West Ham,29164,Bramall Lane,Michael Salisbury,2023-2024,2,2,Draw
+6213,21,2024-01-21,Bournemouth,0–4,Liverpool,11228,Vitality Stadium,Andy Madley,2023-2024,0,4,Liverpool
+6214,21,2024-01-22,Brighton,0–0,Wolves,41505,The American Express Community Stadium,Craig Pawson,2023-2024,0,0,Draw
+6216,22,2024-01-30,Nott'ham Forest,1–2,Arsenal,29387,The City Ground,Simon Hooper,2023-2024,1,2,Arsenal
+6217,22,2024-01-30,Fulham,0–0,Everton,24376,Craven Cottage,Thomas Bramall,2023-2024,0,0,Draw
+6218,22,2024-01-30,Luton Town,4–0,Brighton,10994,Kenilworth Road Stadium,Robert Jones,2023-2024,4,0,Luton Town
+6219,22,2024-01-30,Crystal Palace,3–2,Sheffield Utd,24781,Selhurst Park,Tony Harrington,2023-2024,3,2,Crystal Palace
+6220,22,2024-01-30,Aston Villa,1–3,Newcastle Utd,42191,Villa Park,John Brooks,2023-2024,1,3,Newcastle Utd
+6221,22,2024-01-31,Tottenham,3–2,Brentford,61210,Tottenham Hotspur Stadium,David Coote,2023-2024,3,2,Tottenham
+6222,22,2024-01-31,Manchester City,3–1,Burnley,52143,Etihad Stadium,Samuel Barrott,2023-2024,3,1,Manchester City
+6223,22,2024-01-31,Liverpool,4–1,Chelsea,57524,Anfield,Paul Tierney,2023-2024,4,1,Liverpool
+6224,22,2024-02-01,West Ham,1–1,Bournemouth,62478,London Stadium,Tim Robinson,2023-2024,1,1,Draw
+6225,22,2024-02-01,Wolves,3–4,Manchester Utd,31641,Molineux Stadium,Jarred Gillett,2023-2024,3,4,Manchester Utd
+6227,23,2024-02-03,Everton,2–2,Tottenham,39321,Goodison Park,Michael Oliver,2023-2024,2,2,Draw
+6228,23,2024-02-03,Newcastle Utd,4–4,Luton Town,52211,St James' Park,Thomas Bramall,2023-2024,4,4,Draw
+6229,23,2024-02-03,Brighton,4–1,Crystal Palace,31345,The American Express Community Stadium,Simon Hooper,2023-2024,4,1,Brighton
+6230,23,2024-02-03,Burnley,2–2,Fulham,20203,Turf Moor,Darren Bond,2023-2024,2,2,Draw
+6231,23,2024-02-03,Sheffield Utd,0–5,Aston Villa,30187,Bramall Lane,Paul Tierney,2023-2024,0,5,Aston Villa
+6232,23,2024-02-04,Bournemouth,1–1,Nott'ham Forest,11200,Vitality Stadium,Rebecca Welch,2023-2024,1,1,Draw
+6233,23,2024-02-04,Manchester Utd,3–0,West Ham,73612,Old Trafford,Andy Madley,2023-2024,3,0,Manchester Utd
+6234,23,2024-02-04,Chelsea,2–4,Wolves,39628,Stamford Bridge,Tim Robinson,2023-2024,2,4,Wolves
+6235,23,2024-02-04,Arsenal,3–1,Liverpool,60374,Emirates Stadium,Anthony Taylor,2023-2024,3,1,Arsenal
+6236,23,2024-02-05,Brentford,1–3,Manchester City,17096,Gtech Community Stadium,Jarred Gillett,2023-2024,1,3,Manchester City

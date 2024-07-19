@@ -4,6 +4,12 @@ import { MatchDetailCard } from '../components/MatchDetailCard';
 import './FixturePage.scss'
 import { MatchSmallCard } from '../components/MatchSmallCard';
 import { SeasonSelector } from '../components/SeasonSelector';
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
 
 export const FixturePage = () =>{
     const [fixtures, setFixtures] = useState([]);
@@ -27,11 +33,11 @@ export const FixturePage = () =>{
         <>
         <div className='FixturePage'>
             <div className='years'>
-            <h3>Select Year</h3>
+            <h4>Select Year</h4>
                 <SeasonSelector teamName={teamName}/>
             </div>
             <div>
-            <h1>Fixtures</h1>
+            <h4 className='fixture'>Fixtures</h4>
             {fixtures.map((fixture, index) => (<MatchDetailCard key={index} teamName={teamName} fixture={fixture}/>))}
             </div>
         </div>

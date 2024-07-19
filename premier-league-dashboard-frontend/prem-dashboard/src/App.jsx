@@ -5,6 +5,7 @@ import { TeamPage } from './pages/TeamPage'
 import { FixturePage } from './pages/FixturePage'
 import { HomePage } from './pages/HomePage'
 import { NavBar } from './components/NavBar'
+import Paper from '@mui/material/Paper';
 
 function App() {
   return (

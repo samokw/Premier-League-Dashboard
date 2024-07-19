@@ -10,13 +10,13 @@ a {
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgb(255, 255, 255);
-  background-color: #3D195B;
+  background-color: #000000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

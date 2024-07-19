@@ -9,8 +9,8 @@ export const MatchSmallCard = ({teamName, fixture}) =>{
   return (
     <>
       <div className={isMatchWon ? 'MatchSmallCard won-card' : 'MatchSmallCard lost-card'}>
-        <h3>vs <Link to={otherTeamRoute}>{otherTeam}</Link></h3>
-        <h5>{fixture.score}</h5>
+        <h3 className="text">vs <Link to={otherTeamRoute}>{otherTeam}</Link></h3>
+        <h4 className="text">{fixture.score}</h4>
       </div>
     </>
   )

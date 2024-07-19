@@ -52,5 +52,6 @@ public class TeamService {
             team.setTotalMatches(team.getTotalMatches() + 1);
             team.setMatchesWon(team.getMatchesWon() + (teamName.equals(winner) ? 1 : 0));
         }
+        teamRepository.save(team);
     }
 }

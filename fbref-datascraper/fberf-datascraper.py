@@ -14,7 +14,7 @@ def determine_winner(row):
     else:
         return 'Draw'
 # Creating a list of seasons
-seasons_list = [f"{year}-{year+1}" for year in range(2009, 2023)]
+seasons_list = [f"{year}-{year+1}" for year in range(2009, 2024)]
 
 data = []
 
