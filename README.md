@@ -4,7 +4,7 @@ Browse Games from the Premier League, La liga, Serie A, and Bundesliga
 
 ## Screenshots
 
-### Lamding Page
+### Landing Page
 
 ![Home Page](/README/Landing.png)
 
@@ -66,7 +66,7 @@ cd premier-league-dashboard-backend
 ```
 
 * Hosted on
-https://www.samokw.name/
+https://www.samokw.name
 
 ## Next Steps
 * Automate the process of pulling the data yearly, currently working giving lambda function the ability to update data
