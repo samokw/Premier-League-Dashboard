@@ -3,6 +3,8 @@ package com.example.premierleaguedashboardbackend.Team;
 import com.example.premierleaguedashboardbackend.Fixture.Fixture;
 import com.example.premierleaguedashboardbackend.Fixture.FixtureRepository;
 import jakarta.transaction.Transactional;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,7 +20,9 @@ public class TeamService {
         this.fixtureRepository = fixtureRepository;
     }
 
-
+    public Page<Team> getTeamsByLeagueId(Long leagueId, Pageable pageable) {
+        return teamRepository.findTeamsByLeagueId(leagueId, pageable);
+    }
     //Puts all fixtures into a list, which are all passes through a loop
 
     public void updateAllTeamStats(){

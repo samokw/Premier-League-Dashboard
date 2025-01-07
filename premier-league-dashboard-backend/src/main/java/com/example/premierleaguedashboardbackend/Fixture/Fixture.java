@@ -1,5 +1,6 @@
 package com.example.premierleaguedashboardbackend.Fixture;
 
+import com.example.premierleaguedashboardbackend.Leagues.League;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,11 +12,14 @@ import java.time.LocalDate;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "prem_fixture_date")
+@Table(name = "matches")
 public class Fixture {
     @Id
-    @Column(name = "matchID")
+    @Column(name = "match_id")
     private Long matchid;
+
+    @Column(name = "leagueid")
+    private Long leagueid;
 
     @Column(name = "Wk")
     private Integer week;
@@ -33,7 +37,7 @@ public class Fixture {
     private String score;
 
     @Column(name = "Attendance")
-    private Long attendance;
+    private String attendance;
 
     @Column(name = "Venue")
     private String venue;
