@@ -1,4 +1,10 @@
-.TeamTile{
+.TeamTile {
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+
+    &:hover {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
     height: 150px;
     text-align: center;
     color: rgb(0, 0, 0);

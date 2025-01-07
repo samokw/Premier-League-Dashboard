@@ -14,9 +14,8 @@ export const TeamPage = () => {
 
     useEffect(() => {
         const fetchFixtures = async () => {
-            const response = await fetch(`http:///localhost:8080/team/${teamName}`);
+            const response = await fetch(`https://api.samokw.name/team/${teamName}`);
             const data = await response.json();
-            console.log((data.totalMatches - data.matchesWon))
             setTeam(data);
         };
         fetchFixtures();
@@ -24,7 +23,7 @@ export const TeamPage = () => {
 
     useEffect(() => {
         const fetchSeasons = async () => {
-            const response = await fetch(`http:///localhost:8080/team/season/${teamName}`);
+            const response = await fetch(`https://api.samokw.name/team/season/${teamName}`);
             const data = await response.json();
             setSeasons(data);
         };

@@ -11,6 +11,10 @@ const Team = styled(Paper)(({ theme }) => ({
     backgroundColor: 'black',
     lineHeight: '60px',
     fontWeight: 'bold',
+    transition: 'transform 0.3s',
+    '&:hover': {
+        transform: 'scale(1.05)',
+    },
 }));
 
 export const TeamTile = ({teamName}) =>{

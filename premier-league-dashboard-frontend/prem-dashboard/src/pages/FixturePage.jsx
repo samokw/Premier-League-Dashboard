@@ -19,11 +19,9 @@ export const FixturePage = () =>{
     useEffect(
         () => {
             const fetchFixtures = async () => {
-                console.log(`http:///localhost:8080/team/${teamName}/matches?season=${season}`)
-                const response = await fetch(`http:///localhost:8080/team/${teamName}/matches?season=${season}`);
+                const response = await fetch(`https://api.samokw.name/team/${teamName}/matches?season=${season}`);
                 const data = await response.json();
                 setFixtures(data)
-                console.log(data)
             };
             fetchFixtures();
         }, [teamName, season]

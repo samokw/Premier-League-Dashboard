@@ -36,7 +36,7 @@ export const NavBar = () => {
       <Stack spacing={2} sx={{ flexGrow: 1 }}>
       <ThemeProvider theme={darkTheme}>
         <AppBar position="static" color="primary">
-          <Link to={``}> 
+          <Link to={`/`}> 
           {appBarLabel('Home')}
           </Link>
         </AppBar>

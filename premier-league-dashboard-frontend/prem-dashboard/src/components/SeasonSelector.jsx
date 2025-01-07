@@ -16,11 +16,9 @@ export const SeasonSelector = ({ teamName }) => {
     useEffect(
         () => {
             const fetchSeasons = async () => {
-                console.log(`http:///localhost:8080/team/season/${teamName}`)
-                const response = await fetch(`http:///localhost:8080/team/season/${teamName}`);
+                const response = await fetch(`https://api.samokw.name/team/season/${teamName}`);
                 const data = await response.json();
                 setSeason(data)
-                console.log(data)
             };
             fetchSeasons();
         }, [teamName]
