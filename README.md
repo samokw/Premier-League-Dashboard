@@ -45,7 +45,7 @@ python fbref-datascraper.py
 ```
 * Frontend
 ```
-cd premier-league-dashboard-frontend
+cd premier-league-dashboard-frontend/prem-dashboard
 ```
 ```
 npm install
