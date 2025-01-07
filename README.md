@@ -66,7 +66,7 @@ cd premier-league-dashboard-backend
 ```
 
 * Hosted on
-https://www.samokw.name
+www.samokw.name
 
 ## Next Steps
 * Automate the process of pulling the data yearly, currently working giving lambda function the ability to update data
