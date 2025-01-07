@@ -1,8 +1,12 @@
 # Premier-League-Dashboard
 
-Browse all Premier League teams and view their past game details
+Browse Games from the Premier League, La liga, Serie A, and Bundesliga
 
 ## Screenshots
+
+### Lamding Page
+
+![Home Page](/README/Landing.png)
 
 ### Home Page
 
@@ -27,7 +31,7 @@ Browse all Premier League teams and view their past game details
 
 ### Dependencies
 Youll need to have:
-Python 3.10, Java 17, and NodeJs all installed
+Python 3.11, Java 17, and NodeJs all installed
 
 #### Python Libaries
 * Pandas
@@ -61,9 +65,12 @@ cd premier-league-dashboard-backend
 ./mvnw spring-boot:run
 ```
 
+* Hosted on
+https://www.samokw.name/
+
 ## Next Steps
-* Automate the process of pulling the data yearly
-* Deploy the Website
+* Automate the process of pulling the data yearly, currently working giving lambda function the ability to update data
+* Fix bug with home button
 
 ## Author Information
 Chibuzor Okwusiuno
