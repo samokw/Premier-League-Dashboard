@@ -16,9 +16,9 @@ import java.util.List;
 public class League {
     @Id
     @Column(name = "leagueid")
-    private Long league_id;
+    private Long leagueId;
 
     @Column(name = "leaguename")
-    private String league_name;
+    private String leagueName;
 
 }

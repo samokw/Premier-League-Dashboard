@@ -12,11 +12,15 @@ import java.util.List;
 @RequestMapping("/league")
 @CrossOrigin(origins = "https://www.samokw.name") // Allow requests from the frontend
 public class LeagueController {
-    @Autowired
-    LeagueRepository leagueRepository;
+    private final LeagueService leagueService;
+
+    public LeagueController(LeagueService leagueService) {
+        this.leagueService = leagueService;
+    }
+    
 
     @GetMapping
     public ResponseEntity<List<League>> getAllLeagues() {
-        return ResponseEntity.ok(leagueRepository.findAll());
+        return ResponseEntity.ok(leagueService.getAllLeagues());
     }
 }

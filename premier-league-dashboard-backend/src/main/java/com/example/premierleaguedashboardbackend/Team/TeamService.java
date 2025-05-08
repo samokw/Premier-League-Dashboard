@@ -2,7 +2,6 @@ package com.example.premierleaguedashboardbackend.Team;
 
 import com.example.premierleaguedashboardbackend.Fixture.Fixture;
 import com.example.premierleaguedashboardbackend.Fixture.FixtureRepository;
-import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -12,18 +11,35 @@ import java.util.Optional;
 
 @Service
 public class TeamService {
-    TeamRepository teamRepository;
-    FixtureRepository fixtureRepository;
+    private final TeamRepository teamRepository;
+    private final FixtureRepository fixtureRepository;
 
     public TeamService(TeamRepository teamRepository, FixtureRepository fixtureRepository){
         this.teamRepository = teamRepository;
         this.fixtureRepository = fixtureRepository;
     }
+    public List<Team> getAllTeams() {
+        return teamRepository.findAll();
+    }
 
+    public Team getTeamWithLatestFixtures(String teamName, int count) {
+        Team team = teamRepository.findByTeamName(teamName).orElse(null);
+        if (team != null) {
+            team.setFixtures(fixtureRepository.findLatestMatchesByTeam(teamName, count));
+        }
+        return team;
+    }
+
+    public List<Fixture> getFixturesByTeamAndSeason(String teamName, String season) {
+        return fixtureRepository.getFixturesByTeamForSeason(teamName, season);
+    }
+
+    public List<String> getSeasonsForTeam(String teamName) {
+        return fixtureRepository.getSeasonsForTeam(teamName);
+    }
     public Page<Team> getTeamsByLeagueId(Long leagueId, Pageable pageable) {
         return teamRepository.findTeamsByLeagueId(leagueId, pageable);
     }
-    //Puts all fixtures into a list, which are all passes through a loop
 
     public void updateAllTeamStats(){
         List<Fixture> allFixtures = fixtureRepository.findAll();

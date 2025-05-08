@@ -15,13 +15,13 @@ public class Team {
     @Column(name = "team_id")
     private Long id;
 
-    @Column(name = "team_name") // Correct casing
+    @Column(name = "team_name")
     private String teamName;
 
-    @Column(name = "total_matches") // Correct casing
+    @Column(name = "total_matches")
     private Integer totalMatches;
 
-    @Column(name = "matches_won") // Already correct
+    @Column(name = "matches_won")
     private Integer matchesWon;
 
     @Transient

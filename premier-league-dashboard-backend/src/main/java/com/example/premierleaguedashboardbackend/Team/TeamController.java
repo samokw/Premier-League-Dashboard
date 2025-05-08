@@ -17,36 +17,31 @@ import java.util.List;
 @RequestMapping("/team")
 @CrossOrigin(origins = "https://www.samokw.name")
 public class TeamController {
-    @Autowired
-    TeamRepository teamRepository;
 
-    @Autowired
-    TeamService teamService;
+    private final TeamService teamService;
 
-    @Autowired
-    FixtureRepository fixtureRepository;
+    public TeamController(TeamService teamService) {
+        this.teamService = teamService;
+    }
 
     @GetMapping
     public ResponseEntity<List<Team>> getAllTeams() {
-        return ResponseEntity.ok(teamRepository.findAll());
+        return ResponseEntity.ok(teamService.getAllTeams());
     }
 
     @GetMapping("/{teamName}")
     public Team getTeam(@PathVariable String teamName) {
-        Team team = teamRepository.findByTeamName(teamName).get();
-        team.setFixtures(fixtureRepository.findLatestMatchesByTeam(teamName, 4));
-        return team;
+        return teamService.getTeamWithLatestFixtures(teamName, 4);
     }
 
     @GetMapping("/{teamName}/matches")
     public List<Fixture> getFixturesForTeam(@PathVariable String teamName, @RequestParam String season) {
-        System.out.println(season);
-        return fixtureRepository.getFixturesByTeamForSeason(teamName, season);
+        return teamService.getFixturesByTeamAndSeason(teamName, season);
     }
 
     @GetMapping("/season/{teamName}")
     public List<String> getSeasons(@PathVariable String teamName) {
-        return fixtureRepository.getSeasonsForTeam(teamName);
+        return teamService.getSeasonsForTeam(teamName);
     }
 
     @GetMapping("/league/{leagueId}")
@@ -54,8 +49,6 @@ public class TeamController {
             @PathVariable Long leagueId,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
-        Pageable pageable = PageRequest.of(page, size);
-        Page<Team> teams = teamService.getTeamsByLeagueId(leagueId, pageable);
-        return ResponseEntity.ok(teams);
+        return ResponseEntity.ok(teamService.getTeamsByLeagueId(leagueId, PageRequest.of(page, size)));
     }
 }

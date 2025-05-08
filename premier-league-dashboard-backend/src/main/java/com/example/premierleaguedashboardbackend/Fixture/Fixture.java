@@ -1,6 +1,5 @@
 package com.example.premierleaguedashboardbackend.Fixture;
 
-import com.example.premierleaguedashboardbackend.Leagues.League;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,10 +15,10 @@ import java.time.LocalDate;
 public class Fixture {
     @Id
     @Column(name = "match_id")
-    private Long matchid;
+    private Long matchId;
 
     @Column(name = "leagueid")
-    private Long leagueid;
+    private Long leagueId;
 
     @Column(name = "Wk")
     private Integer week;
